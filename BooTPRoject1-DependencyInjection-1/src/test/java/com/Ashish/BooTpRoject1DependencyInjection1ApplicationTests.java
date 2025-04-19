@@ -1,10 +1,10 @@
-package com.Ashish.BootProject2_StrategyDP;
+package com.Ashish;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BootProject2StrategyDpApplicationTests {
+class BooTpRoject1DependencyInjection1ApplicationTests {
 
 	@Test
 	void contextLoads() {
