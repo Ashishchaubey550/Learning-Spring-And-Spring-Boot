@@ -17,7 +17,7 @@ public class SessionFinder {
         if (month>=3 && month<=6){
             return "Summer Session";
         }else if (month>=7 && month<=10){
-            return "Rainy Session";
+        	return "Rainy Season";
         }else {
             return "Winter Season";
         }
