@@ -4,24 +4,24 @@ public class Employee {
     private Integer empno;
     private String ename;
     private String desg;
-    private Double salery;
+    private Double salary;
     private Integer deptno;
-    private Double grossSalery;
-    private Double netSalery;
+    private Double grossSalary;
+    private Double netSalary;
 
-    public Integer getEmpno() {
+
+    public Integer getEmpno(){
         return empno;
     }
-
-    public void setEmpno(Integer empno) {
+    public void setEmpno(Integer empno){
         this.empno = empno;
     }
 
-    public String getEname() {
+    public String getEname(){
         return ename;
     }
 
-    public void setEname(String ename) {
+    public void setEname(String ename){
         this.ename = ename;
     }
 
@@ -33,12 +33,12 @@ public class Employee {
         this.desg = desg;
     }
 
-    public Double getSalery() {
-        return salery;
+    public Double getSalary() {
+        return salary;
     }
 
-    public void setSalery(Double salery) {
-        this.salery = salery;
+    public void setSalary(Double salary) {
+        this.salary = salary;
     }
 
     public Integer getDeptno() {
@@ -49,20 +49,20 @@ public class Employee {
         this.deptno = deptno;
     }
 
-    public Double getGrossSalery() {
-        return grossSalery;
+    public Double getGrossSalary() {
+        return grossSalary;
     }
 
-    public void setGrossSalery(Double grossSalery) {
-        this.grossSalery = grossSalery;
+    public void setGrossSalary(Double grossSalary) {
+        this.grossSalary = grossSalary;
     }
 
-    public Double getNetSalery() {
-        return netSalery;
+    public Double getNetSalary() {
+        return netSalary;
     }
 
-    public void setNetSalery(Double netSalery) {
-        this.netSalery = netSalery;
+    public void setNetSalary(Double netSalary) {
+        this.netSalary = netSalary;
     }
 
     @Override
@@ -71,10 +71,10 @@ public class Employee {
                 "empno=" + empno +
                 ", ename='" + ename + '\'' +
                 ", desg='" + desg + '\'' +
-                ", salery=" + salery +
+                ", salary=" + salary +
                 ", deptno=" + deptno +
-                ", grossSalery=" + grossSalery +
-                ", netSalery=" + netSalery +
+                ", grossSalary=" + grossSalary +
+                ", netSalary=" + netSalary +
                 '}';
     }
 }
